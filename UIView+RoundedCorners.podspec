@@ -8,16 +8,15 @@
 #
 Pod::Spec.new do |s|
   s.name         = "UIView+RoundedCorners"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "RoundedCorners is a little category for rounded corners on UIViews."
   s.homepage     = "http://github.com/ChaosCoder/UIView-RoundedCorners.git"
 
   s.license      = 'MIT'
   s.author       = { "Andreas Ganske" => "a.ganske@chaosspace.de" }
-  s.source       = { :git => "https://github.com/ChaosCoder/UIView-RoundedCorners.git", :tag => "0.1.0" }
+  s.source       = { :git => "https://github.com/ChaosCoder/UIView-RoundedCorners.git", :tag => "0.1.1" }
 
   s.platform     = :ios
   s.source_files = '*.{h,m}'
-  s.framework  = 'Cocoa'
   s.requires_arc = true
 end
